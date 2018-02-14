@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spotify.iml" filepath="$PROJECT_DIR$/Spotify.iml" />
+      <module fileurl="file://C:\Users\Genson\Desktop\IT Elective 2 (2018)\Videos\Spotify\Spotify.iml" filepath="C:\Users\Genson\Desktop\IT Elective 2 (2018)\Videos\Spotify\Spotify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Genson\Desktop\IT Elective 2 (2018)\Videos\Spotify\app\app.iml" filepath="C:\Users\Genson\Desktop\IT Elective 2 (2018)\Videos\Spotify\app\app.iml" />
+    </modules>
+  </component>
+</project>

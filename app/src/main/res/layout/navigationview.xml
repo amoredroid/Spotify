@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#444444"
+    android:id="@+id/fragmentContainer">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="2dp"
+            android:tint="#fff"
+            app:srcCompat="@drawable/home" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/img1"
+            android:layout_alignStart="@+id/img1"
+            android:layout_below="@+id/img1"
+            android:text="Home"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/img1"
+            app:srcCompat="@drawable/browse"
+            android:tint="#fff"
+            />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/img2"
+            android:layout_alignStart="@+id/img2"
+            android:layout_below="@+id/img2"
+            android:text="Browser"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/txt2"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/txt2"
+            android:layout_toRightOf="@+id/txt2"
+            android:tint="#fff"
+            app:srcCompat="@drawable/search" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/img3"
+            android:layout_alignStart="@+id/img3"
+            android:layout_below="@+id/img3"
+            android:text="Search"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/img3"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/txt3"
+            android:layout_toRightOf="@+id/txt3"
+            android:tint="#fff"
+            app:srcCompat="@drawable/radio" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txt3"
+            android:layout_alignBottom="@+id/txt3"
+            android:layout_alignLeft="@+id/img4"
+            android:layout_alignStart="@+id/img4"
+            android:text="Radio"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/txt5"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_toEndOf="@+id/img4"
+            android:layout_toRightOf="@+id/img4"
+            android:tint="#fff"
+            app:srcCompat="@drawable/library" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/img5"
+            android:layout_alignRight="@+id/img5"
+            android:layout_below="@+id/img4"
+            android:text="Library"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+</FrameLayout>

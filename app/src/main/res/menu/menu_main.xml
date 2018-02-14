@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/BottombarHome"
+        android:icon="@drawable/home"
+        android:title="Home">Home</item>
+
+    <item android:id="@+id/BottombarBrowse"
+        android:icon="@drawable/browse"
+        android:title="Browse">Browse</item>
+
+    <item android:id="@+id/BottombarSearch"
+        android:icon="@drawable/search"
+        android:title="Search">Search</item>
+
+    <item android:id="@+id/BottombarRadio"
+        android:icon="@drawable/radio"
+        android:title="Radio">Radio</item>
+
+    <item android:id="@+id/BottombarLibrary"
+        android:icon="@drawable/library"
+        android:title="Library">Library</item>
+
+
+</menu>

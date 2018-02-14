@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    android:id="@+id/widgetcontainer"
+    tools:layout_editor_absoluteY="81dp">
+
+    <RelativeLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/txtSong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/seekBar"
+            android:layout_toLeftOf="@+id/btnPausePlay"
+            android:layout_toRightOf="@+id/seekBar"
+            android:layout_toStartOf="@+id/btnPausePlay"
+            android:gravity="center"
+            android:text="Name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/txtSinger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnPausePlay"
+            android:layout_marginLeft="71dp"
+            android:layout_marginStart="71dp"
+            android:layout_toEndOf="@+id/seekBar"
+            android:layout_toRightOf="@+id/seekBar"
+            android:text=""
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#c0c0c0" />
+
+        <TextView
+            android:id="@+id/txtAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtSinger"
+            android:layout_alignBottom="@+id/txtSinger"
+            android:layout_marginLeft="68dp"
+            android:layout_marginStart="68dp"
+            android:layout_toEndOf="@+id/txtSinger"
+            android:layout_toRightOf="@+id/txtSinger"
+            android:text="Album"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#c0c0c0" />
+
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:id="@+id/btnPausePlay"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            tools:background="@drawable/pause"/>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:thumb="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
